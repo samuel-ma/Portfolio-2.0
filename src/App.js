@@ -5,6 +5,11 @@ import { CgFileDocument } from "react-icons/cg";
 import { FaBlog } from "react-icons/fa";
 import { HiOutlinePhoneOutgoing } from "react-icons/hi";
 import Home from './components/Home';
+import About from './components/About';
+import Resume from './components/Resume';
+import Work from './components/Work';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
 import { RiShareForwardFill } from "react-icons/ri";
 import { FaHandSparkles } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
@@ -57,6 +62,11 @@ function App() {
 
       <div className='container'>
           <Home />
+          <About />
+          <Resume />
+          <Work />
+          <Blog />
+          <Contact />
       </div>
       
     </div>
