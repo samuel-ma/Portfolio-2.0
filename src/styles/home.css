@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+.home-div{
+  background-color: black;
+  height: 650px;
+  font-size: 15px;
+}
+
+.Home{
+  margin-left: 80px;
+  line-height: 30px;
+}
+
+.description{
+  margin-top: 100px;
+}
+
+.home-container{
+  display: flex;
+  align-items: center;
+}
+
+.phone,
+.email{
+  margin-right: 20px;
+}
+
+.samuel{
+  font-family: Playfair Display, serif;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.design{
+  max-width: 400px;
+}
+
+.full{
+  color: #FF9301;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.download{
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 150px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  transition: ease-in-out, 1s;
+}
+
+.download:hover{
+  background-color: #FF9301;
+  color: white;
+}
+
+.hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
