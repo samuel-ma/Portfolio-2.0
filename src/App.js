@@ -11,9 +11,8 @@ import Work from './components/Work';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import { RiShareForwardFill } from "react-icons/ri";
-import { FaHandSparkles } from "react-icons/fa";
-import { BsTwitter } from "react-icons/bs";
-import { BiCoffeeTogo } from "react-icons/bi";
+import { FaHandSparkles, FaGithubAlt } from "react-icons/fa";
+import { BsTwitter, BsGithub } from "react-icons/bs";
 
 function App() {
   return (
@@ -26,11 +25,13 @@ function App() {
         <div className='conicons-1'>
           <BsTwitter className='iconicons-2' />
         </div>
+        
+        <div className='conicons-3'>
+          <FaGithubAlt className='iconicons-3' />
+        </div>
+
         <div className='conicons-2'>
           <RiShareForwardFill className='iconicons' />
-        </div>
-        <div className='conicons-3'>
-          <BiCoffeeTogo className='iconicons-3' />
         </div>
       </div>
 

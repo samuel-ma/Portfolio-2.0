@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 
-.home-div{
-  height: 650px;
-  font-size: 15px;
-}
-
 .Home{
   margin-left: 80px;
   line-height: 30px;
+}
+
+.line{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(28, 28, 44);
+  position: fixed;
+  right: 65px;
+  top: 0;
+  bottom: 0;
 }
 
 .description{

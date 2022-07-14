@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik+Mono+One&display=swap');
 
 body{
   margin: 0;
@@ -16,6 +17,7 @@ body{
   position: fixed;
   right: 20px;
   bottom: 20px;
+  z-index: 1;
 }
 
 .conicons{
@@ -32,6 +34,7 @@ body{
   margin-bottom: 10px;
   cursor: pointer;
   transition: ease-in-out, 0.5s;
+  background-color: #0E0E17;
 }
 
 .conicons:hover{
@@ -54,6 +57,7 @@ body{
   margin-bottom: 10px;
   cursor: pointer;
   transition: ease-in-out, 0.5s;
+  background-color: #0E0E17;
 }
 
 .conicons-1:hover{
@@ -76,6 +80,7 @@ body{
   margin-bottom: 10px;
   cursor: pointer;
   transition: ease-in-out, 0.5s;
+  background-color: #0E0E17;
 }
 
 .conicons-2:hover{
@@ -98,10 +103,11 @@ body{
   margin-bottom: 10px;
   cursor: pointer;
   transition: ease-in-out, 0.5s;
+  background-color: #0E0E17;
 }
 
 .conicons-3:hover{
-  border-color: rgb(230, 90, 40);
+  border-color: rgb(230, 40, 183);
   border-style: solid;
   border-width: 1px;
 }
@@ -130,7 +136,7 @@ body{
   width: 30px;
   height: 30px;
   object-fit: contain;
-  color: rgb(230, 90, 40);
+  color: rgb(230, 40, 183);
 }
 
 .navigation{
@@ -158,8 +164,9 @@ body{
 }
 
 .logo{
+  font-family: "Alfa Slob One";
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 15px;
   margin-bottom: 15px;
 }
