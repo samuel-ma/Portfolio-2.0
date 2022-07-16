@@ -10,6 +10,16 @@ body{
   color: white;
 }
 
+.line{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(28, 28, 44);
+  position: fixed;
+  right: 65px;
+  top: 0;
+  bottom: 0;
+}
+
 .connections{
   display:flex;
   align-items: center;
@@ -154,6 +164,7 @@ body{
 }
 
 .logo-div{
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;

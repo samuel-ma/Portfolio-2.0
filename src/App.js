@@ -1,22 +1,19 @@
 
-import './App.css';
+import './styles/App.css';
+import Pages from './Pages';
 import { IoHome, IoPerson, IoBagHandle } from "react-icons/io5";
 import { CgFileDocument } from "react-icons/cg";
 import { FaBlog } from "react-icons/fa";
 import { HiOutlinePhoneOutgoing } from "react-icons/hi";
-import Home from './components/Home';
-import About from './components/About';
-import Resume from './components/Resume';
-import Work from './components/Work';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
 import { RiShareForwardFill } from "react-icons/ri";
 import { FaHandSparkles, FaGithubAlt } from "react-icons/fa";
-import { BsTwitter, BsGithub } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
 
 function App() {
   return (
     <div className="App">
+
+      <div className="line"></div>
 
       <div className='connections'>
         <div className='conicons'>
@@ -62,12 +59,7 @@ function App() {
       </div>
 
       <div className='container'>
-          <Home />
-          <About />
-          <Resume />
-          <Work />
-          <Blog />
-          <Contact />
+          {/* <Pages /> */}
       </div>
       
     </div>
