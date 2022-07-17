@@ -8,8 +8,10 @@ import { HiOutlinePhoneOutgoing } from "react-icons/hi";
 import { RiShareForwardFill } from "react-icons/ri";
 import { FaHandSparkles, FaGithubAlt } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import Footer from './components/Footer';
 
 function App() {
+
   return (
     <div className="App">
 
@@ -38,22 +40,27 @@ function App() {
         </div>
 
         <div className="icon-div">
-            <IoHome className='icons' />
+            <IoHome className='icons' />    
         </div>
+        
         <div className="icon-div">
-            <IoPerson className='icons' />
+            <IoPerson className='icons' />           
         </div>
+
         <div className="icon-div">
-            <CgFileDocument className='icons' />
+            <CgFileDocument className='icons' />          
         </div>
+
         <div className="icon-div">
-            <IoBagHandle className='icons' />
+            <IoBagHandle className='icons' />           
         </div>
+
         <div className="icon-div">
-            <FaBlog className='icons' />
+            <FaBlog className='icons' />           
         </div>
+
         <div className="icon-div-last">
-            <HiOutlinePhoneOutgoing className='icons' />
+            <HiOutlinePhoneOutgoing className='icons' />           
         </div>
         
       </div>
@@ -61,6 +68,8 @@ function App() {
       <div className='container'>
           {/* <Pages /> */}
       </div>
+
+      <Footer />
       
     </div>
   );
