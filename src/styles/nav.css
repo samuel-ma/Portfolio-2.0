@@ -1,0 +1,68 @@
+
+
+.navigation{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(28, 28, 44);
+}
+
+.logo-div{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+  background-color: #FF9301;
+  margin-bottom: 70px;
+}
+
+.logo{
+  font-family: "Alfa Slob One";
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.icon-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(28, 28, 44);
+  width: inherit;
+  margin-bottom: 20px;
+}
+
+.icon-div-last{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  margin-bottom: 20px;
+}
+
+.icons{
+  width: 27px;
+  height: 27px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.icons:hover{
+  color: #FF9301;
+  cursor: pointer;
+}
