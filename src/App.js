@@ -11,15 +11,10 @@ function App() {
     <div className="App">
 
       <Nav />
-
-      {/* <Social />
-
+      <Social /> 
       <div className='container'>
           <Pages />
-      </div>
-
-      <Footer />
-       */}
+      </div>    
 
     </div>
   );

@@ -8,12 +8,12 @@ import Contact from './components/Contact';
 function pages() {
   return (
     <div>
-          <Home />
+          {/* <Home />
           <About />
-          <Resume />
+          <Resume /> */}
           <Work />
-          <Blog />
-          <Contact />
+          {/* <Blog />
+          <Contact /> */}
     </div>
   )
 }
