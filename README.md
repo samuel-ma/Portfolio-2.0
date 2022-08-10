@@ -1,3 +1,7 @@
+# My Official Porfolio
+
+Design by UI/UX Dave
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
