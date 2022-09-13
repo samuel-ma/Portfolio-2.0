@@ -3,6 +3,7 @@
 .navigation{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-direction: column;
   width: 80px;
   position: fixed;
@@ -22,7 +23,6 @@
   width: inherit;
   height: inherit;
   background-color: #FF9301;
-  margin-bottom: 70px;
 }
 
 .logo{
@@ -42,22 +42,33 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(28, 28, 44);
-  width: inherit;
+  width: 80px;
   margin-bottom: 20px;
 }
 
-.icon-div-last{
+.icon-div2{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(28, 28, 44);
   width: inherit;
   margin-bottom: 20px;
+  background-color: #FF9301;
 }
 
 .icons{
   width: 27px;
   height: 27px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.icons2{
+  width: 22px;
+  height: 22px;
   object-fit: contain;
   margin-bottom: 20px;
 }

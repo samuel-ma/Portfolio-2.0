@@ -1,10 +1,13 @@
 
+:root{
+  --background: #0e0e1785;
+}
 
 
 .line{
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(28, 28, 44);
+  border-color: #0e0e1741;
   position: fixed;
   right: 65px;
   top: 0;
@@ -31,11 +34,11 @@
   justify-content: center;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(28, 28, 44);
+  border-color: var(--background);
   margin-bottom: 10px;
   cursor: pointer;
   transition: ease-in-out, 0.5s;
-  background-color: #0E0E17;
+  background-color: var(--background);
 }
 
 .conicons:hover{
@@ -54,11 +57,11 @@
   justify-content: center;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(28, 28, 44);
+  border-color: var(--background);
   margin-bottom: 10px;
   cursor: pointer;
   transition: ease-in-out, 0.5s;
-  background-color: #0E0E17;
+  background-color: var(--background);
 }
 
 .conicons-1:hover{
@@ -77,11 +80,11 @@
   justify-content: center;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(28, 28, 44);
+  border-color: var(--background);
   margin-bottom: 10px;
   cursor: pointer;
   transition: ease-in-out, 0.5s;
-  background-color: #0E0E17;
+  background-color: var(--background);
 }
 
 .conicons-2:hover{
@@ -100,11 +103,11 @@
   justify-content: center;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(28, 28, 44);
+  border-color: var(--background);
   margin-bottom: 10px;
   cursor: pointer;
   transition: ease-in-out, 0.5s;
-  background-color: #0E0E17;
+  background-color: var(--background);
 }
 
 .conicons-3:hover{

@@ -3,7 +3,6 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Work from './components/Work';
 import Blog from './components/Blog';
-import Contact from './components/Contact';
 
 function pages() {
   return (
@@ -12,8 +11,7 @@ function pages() {
           <About />
           <Resume /> */}
           <Work />
-          {/* <Blog />
-          <Contact /> */}
+          {/* <Blog /> */}
     </div>
   )
 }
